@@ -48,13 +48,14 @@
 }
 
 .login-signup button{
-    background-color: white;
+    background-color: var(--white-color);
     width: 80px;
     height: 40px;
-    color: #4CAF4F;
+    color: var(--green-bg-color);
     border-radius: 5px;
     border: none;
 }
 .login-signup .signup-area button{
-    background-color: #4CAF4F;
-    color: white;
+    background-color: var(--green-bg-color);
+    color: var(--white-color);
+}
