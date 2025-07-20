@@ -207,7 +207,7 @@
 /* second body unlock */
 /* second body unlock */
 
-.community{
+.unlock{
     max-width: 1440px;
     margin: 0 50px;
     /*background-color: #7f2e5c;*/
@@ -251,4 +251,3 @@
     border-radius: 4px;
     border:none;
 }
-
