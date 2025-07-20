@@ -542,6 +542,9 @@
 .footer-body-list{
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .footer-body-list .links-item{
