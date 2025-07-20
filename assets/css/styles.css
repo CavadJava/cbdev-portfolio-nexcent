@@ -429,8 +429,16 @@
 .community-v2-start{
     text-align: center;
 }
+.community-v2-start .header{
+    color: var(--gray-color);
+    font-size: 36px;
+    font-weight: 600;
+}
 .community-v2-start .description{
-    margin: 0 420px;
+    margin: 20px 420px;
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
 }
 .community-v2-end{
     display: flex;
