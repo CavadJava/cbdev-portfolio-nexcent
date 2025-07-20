@@ -318,3 +318,47 @@
     font-weight: 400;
     color: var(--info-gray-color)
 }
+
+
+/* second body calendar */
+/* second body calendar */
+/* second body calendar */
+
+.calendar{
+    margin: 0 150px;
+}
+.calendar-container{
+    display: flex;
+    gap: 100px;
+}
+.calendar-start{
+    width: 30%;
+}
+.calendar-end{
+    padding: 0 50px;
+    width: 70%;
+}
+.calendar-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.calendar-content h1 {
+    color: var(--gray-color);
+    font-size: 36px;
+    font-weight: 600;
+}
+.calendar-content p {
+    color: var(--info-gray-color);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.calendar-frame button {
+    width:151px;
+    height: 52px;
+    background-color: var(--green-bg-color);
+    color:var(--white-color);
+    border-radius: 4px;
+    border:none;
+}
