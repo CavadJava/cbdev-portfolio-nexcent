@@ -252,3 +252,70 @@
     border:none;
 }
 
+
+
+/* second body achievements */
+/* second body achievements */
+/* second body achievements */
+
+.achievements{
+    background-color: #F5F7FA;
+}
+.achievements-container{
+    margin: 0 150px;
+    padding: 40px 40px;
+    display: flex;
+    gap: 40px;
+}
+.achievements-start {
+    flex: 50%;
+}
+.achievements-start * {
+    margin: 0;
+}
+.achievements-start .title1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--gray-color)
+}
+.achievements-start .title2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--green-bg-color)
+}
+.achievements-start .description {
+    font-size: 16px;
+    margin-top:10px;
+    font-weight: 400;
+    color: #18191F;
+}
+.achievements-end{
+    flex: 50%;
+}
+
+.achievements-counts {
+    width: 400px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achievements-row {
+    flex: 35%;
+    display: flex;
+}
+.achievements-logo {
+    width: 30%;
+}
+.achievements-text *{
+    margin:1px;
+}
+.achievements-text h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--gray-color)
+}
+.achievements-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--info-gray-color)
+}
