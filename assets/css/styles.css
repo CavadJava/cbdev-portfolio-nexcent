@@ -362,3 +362,54 @@
     border-radius: 4px;
     border:none;
 }
+
+
+/* second body customer */
+/* second body customer */
+/* second body customer */
+
+
+.customer{
+    padding: 50px 0 ;
+    margin: 0 150px;
+}
+.customer-container{
+    display: flex;
+    gap: 100px;
+}
+.customer-start{
+    width: 30%;
+}
+.customer-end{
+    padding: 0 50px;
+    width: 70%;
+}
+.customer-content {
+    width: 90%;
+    flex-direction: column;
+}
+.customer-content .header {
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+.customer-content .fullname {
+    color: var(--green-bg-color);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.customer-content .description {
+    color: #89939E;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.customer-frame button {
+    width:151px;
+    height: 52px;
+    background-color: var(--green-bg-color);
+    color:var(--white-color);
+    border-radius: 4px;
+    border:none;
+}
