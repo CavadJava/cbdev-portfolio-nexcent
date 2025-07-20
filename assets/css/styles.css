@@ -1,0 +1,61 @@
+.flex-header{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* company logo */
+.company-logo{
+    padding:0 10px;
+    width: 17%;
+    display: flex;
+    gap:10px;
+    align-self: center;
+}
+
+/* group-menu */
+.group-menu{
+    width: 70%;
+    align-self: center;
+}
+/* heading navigation*/
+.heading-navigation{
+    padding:0 100px;
+}
+.heading-navigation .navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.heading-navigation .navbar-item, a{
+    list-style: none;
+    text-decoration: none;
+    color: #18191F;
+    font-size: 16px;
+}
+
+/* login-signup navigation */
+.login-signup{
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.login-signup {
+    background-color: #ffffff;
+}
+
+.login-signup button{
+    background-color: var(--white-color);
+    width: 80px;
+    height: 40px;
+    color: var(--green-bg-color);
+    border-radius: 5px;
+    border: none;
+}
+.login-signup .signup-area button{
+    background-color: var(--green-bg-color);
+    color: var(--white-color);
+}
