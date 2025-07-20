@@ -147,3 +147,58 @@
 .clients-end .client-logos .clients-nav-item {
     list-style: none;
 }
+
+/* main flex community */
+/* main flex community */
+/* main flex community */
+
+.community{
+    margin: 0 50px;
+    padding: 20px 0;
+    /*background-color: #7f2e5c;*/
+}
+.community-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    /*background-color: #c86f6f;*/
+}
+.community-start > * {
+    text-align: center;
+}
+.community-start > h2 {
+    color: var(--gray-color);
+}
+.community-start > p {
+    color: var(--info-gray-color);
+}
+.community-members {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+.community-membership .member{
+    width: 267px;
+    height: 144px;
+}
+.community-membership .frame-bottom{
+    width: 251px;
+    height: 60px;
+    margin: 2px 8px;
+    text-align: center;
+}
+.community-members img {
+    width: 65px;
+    height: 56px;
+}
+.community-members h3 {
+    color: var(--gray-color);
+    font-size: 28px;
+    font-weight: 700;
+}
+.community-members  p {
+    color: var(--info-gray-color);
+    font-size: 12px;
+}
