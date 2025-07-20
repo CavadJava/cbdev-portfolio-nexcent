@@ -108,3 +108,42 @@
     width: 391px;
     height: 407px;
 }
+
+/* main flex clients */
+/* main flex clients */
+/* main flex clients */
+
+.clients{
+    margin: 0 50px;
+    /*background-color: #7f2e5c;*/
+}
+.clients-container{
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #c86f6f;*/
+}
+.clients-start {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-start > * {
+    text-align: center;
+}
+.clients-start > h2 {
+    color: var(--gray-color)
+}
+.clients-start > p {
+    color: var(--info-gray-color)
+}
+
+.clients-end .client-logos .clients-nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clients-end .client-logos .clients-nav-item {
+    list-style: none;
+}
